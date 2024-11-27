@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="compnents.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="dashboard-container">
+            <header class="header">
+                <div class="row">
+                    <div class="header-content">
+                        <h1 class="logo">Signage</h1>
+                        <div class="search-bar">
+                            <div class="search-input">
+                                <img class="search-icon" alt="Search" src="./assets/search.svg" />
+                                <input type="text" placeholder="Search for assets, group, playlist etc"
+                                    class="search-placeholder" />
+                            </div>
+                        </div>
+                        <div class="user-profile">
+                            <div class="user-avatar">
+                                <span class="user-initials">AF</span>
+                            </div>
+                            <span class="user-name">Abdullah Faheem</span>
+                            <img class="dropdown-icon" alt="Drop down icon" src="assets/drop-down-icon.svg" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="dashboard-content">
+                <h2 class="dashboard-title">Dashboard</h2>
+                <div class="stats">
+                    <div class="stat-card">
+                        <img class="stat-icon" alt="Total asset" src="assets/total-asset-1.png" />
+                        <div class="stat-info">
+                            <span class="stat-title">Assets</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <img class="stat-icon" alt="Playlist" src="assets/playlist-1.png" />
+                        <div class="stat-info">
+                            <span class="stat-title">Playlists</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <img class="stat-icon" alt="Tv" src="assets/tv-1.png" />
+                        <div class="stat-info">
+                            <span class="stat-title">Screens</span>
+                            <span class="stat-value">0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="actions">
+                <button class="add-assets-button">Add Assets</button>
+                <div class="screen-preview">
+                    <div class="screen-placeholder" />
+                    <img class="dashboard-image" alt="Tv" src="assets/tv-2.png" />
+                    <Component class="component-preview" property1="one" />
+                </div>
+            </section>
+
+            <footer class="footer">
+                <img class="./assets/footer-logo" alt="Copyright"
+                    src="assets/copyright-2024-designed-developed-by-cat-marketing-system.svg" />
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
